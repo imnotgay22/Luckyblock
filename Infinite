@@ -1,0 +1,9 @@
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnRainbowBlock"):FireServer(); 
+game:GetService("ReplicatedStorage"):WaitForChild("SpawnGalaxyBlock"):FireServer();
+
+local message = "Script feito por XS"
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "Aviso";
+    Text = message;
+    Duration = 5;
+})
